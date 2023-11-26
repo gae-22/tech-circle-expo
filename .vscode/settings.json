@@ -1,0 +1,36 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "editor.guides.bracketPairs": true,
+  "git.ignoreLimitWarning": true,
+  "eslint.run": "onSave",
+  "stylelint.validate": ["scss", "less", "postcss"],
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "markdown.marp.themes": [
+    "./style/css/base.css",
+    "./style/css/thesis.css",
+    "./style/css/blue.css",
+    "./style/css/navy_blue.css",
+    "./style/css/dark_blue.css",
+    "./style/css/green.css",
+    "./style/css/brown.css",
+    "./style/css/ice_grey.css",
+    "./style/css/twilight_blue.css",
+    "./style/css/stormy_gray.css",
+    "./style/css/emerald_forest.css"
+  ],
+  "markdown.marp.enableHtml": true
+}

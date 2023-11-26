@@ -1,0 +1,62 @@
+/* @theme presentation */
+
+@import 'default';
+
+:root {
+    font-family: 'PleckJP';
+    font-size: 2.5rem;
+    background-image: url(./../style/background.svg);
+    background-size: cover;
+}
+
+section.lead h1 {
+    top: 40%;
+    text-align: center;
+}
+
+section.lead h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+section {
+    color: #000;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+header {
+    color: #ccc;
+    font-size: 0.5em;
+    font-weight: 600;
+    top: 0.3rem;
+}
+
+footer {
+    color: #ccc;
+    font-size: 0.5em;
+    font-weight: 500;
+    bottom: -0.5%;
+}
+
+section::after {
+    color: #ccc;
+    bottom: -1.2%;
+}
+
+table,
+th,
+td {
+    font-size: 83%;
+}
+
+img[src*='#left'] {
+    float: left;
+    margin: auto 1em;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -68,8 +68,4 @@ if [ "$d_option_set" = true ]; then
   fi
 fi
 
-if [ "$html_option_set" = true ]; then
-  npx marp "$1" -o "pdf/$title.pdf" --allow-local-files --html
-else
-  npx marp "$1" -o "pdf/$title.pdf" --allow-local-files
-fi
+npx marp "$1" -o "pdf/$title.pdf" --allow-local-files --html --theme "./style/presentation.css"
